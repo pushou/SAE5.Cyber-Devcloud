@@ -15,7 +15,7 @@ Votre environnement sera protégé par un pare-feu virtuel ou physique Stormshie
 Cet environnement sera déployé sur une plateforme sur Virtual Box et sur Proxmox. Vous devez mener l'installation en parallèle sur les deux plateformes. Vous devrez faire un retour d'expérience sur l'installation de GOAD sur Proxmox. Si elle fonctionne vous pourrez l'utiliser pour vos tests d'intrusion. C'est donc un jalon de votre projet qui sera suivi d'un "Go-NoGo" sur le choix de la plateforme de déploiement. Il est acquis que GOAD fonctionne sur Virtual Box.
 
 
-La répartition du travail eu sein de l'équipe est libre mais doit être planifiée et quantifiée au travers d'un suivi Jira en mode Kanban.
+La répartition du travail eu sein de l'équipe est libre, mais doit être planifiée et quantifiée au travers d'un suivi Jira en mode Kanban.
 Votre responsable doit pouvoir suivre l'avancement de votre projet et faire un bilan personnel des tâches réalisées par chaque membre de l'équipe à la fin du projet.
 
 
@@ -24,11 +24,11 @@ Il est impératif de faire valider votre travail par les experts qui donneront u
 
 ## Livrables attendus
 
-- Le plan de test d'intrusion. 
+- Le plan de test d'intrusion.
 - Bilan des tâches réalisées par chaque membre de l'équipe et temps passé.
 - Schéma réseaux.
-- Tableau de test d'intrusions et analyse des résultats correspondants sur les SIEM. LE critère de furtivité sera apprécié dans vos résultats. 
-- Liste des matériels utilisés par votre team ce qui permettra de retrouvez sur quel matériel vous avez travaillé. L'ensemble des serveurs ne sera pas disponible les six derniers serveurs sont réservés pour une autre expérimentation (ressource Cloud sur deux journées).
+- Tableau de test d'intrusions et analyse des résultats correspondants sur les SIEM. LE critère de furtivité sera apprécié dans vos résultats.
+- Liste des matériels utilisés par votre team ce qui permettra de retrouver sur quel matériel vous avez travaillé. L'ensemble des serveurs ne sera pas disponible les six derniers serveurs sont réservés pour une autre expérimentation (ressource Cloud sur deux journées).
 - 
 En annexe:
 
