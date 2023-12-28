@@ -2,9 +2,13 @@
 
 ## Objet de la SAE
 
-Vous devez créer un environnement d’entraînement pour les équipes "blue team et red team" de votre entreprise.
-Votre équipe sera constituée de deux membres de l'équipe Cloud et de deux membres de l'équipe Cyber.
-Vous devrez mettre en œuvre un environnement technique permettant de simuler un environnement de production Windows.
+### objectifs
+Vous devez créer un "Proof of Concept" pour les futures équipes "blue team et red team" d'une entreprise.
+Votre équipe sera constituée de deux membres spécialistes du Cloud et de l'infrastructure ainsi que deux membres spécialiste Cyberbersécurité de votre ESN.
+
+A cet effet vous devrez mettre en œuvre un environnement réaliste  permettant de simuler un environnement de production Windows.
+Dans un second temps les équipes offensives iront mettre en oeuvre 
+
 Cet environnement sera basé sur le projet GOAD d'Orange Cyberdéfense qui permet de déployer un Active Directory vulnérable. 
 voir https://github.com/Orange-Cyberdefense/GOAD
 
@@ -13,18 +17,18 @@ Dans cet environnement, vous aurez à mettre en œuvre des outils de détection 
 
 L'**audit** et **Sysmon** devront être activés sur les machines Windows. Les Logs seront remontées sur un serveur OPENWEC. Des notes d'installation sont disponibles pour vous aider à le mettre en oeuvre.
 
-Vous utiliserez des "sigma rules" pour detecter les attaques sur les logs EVTX.
+Vous utiliserez des "sigma rules" pour détecter vos attaques sur les logs EVTX.
 Un IDS Suricata sera déployé aussi à l'endroit le mieux adapté.
 
 A chaque test, vous associerez les alertes générées par le SIEM et vous analyserez les résultats. Vous utiliserez au moins deux SIEM et des outils portables comme Chainsaw et Hayabusa. Le déploiement des agents devra être automatisé.
 Votre environnement sera protégé par un pare-feu virtuel ou physique Stormshield.
 
-Cet environnement sera déployé sur une plateforme sur Virtual Box et sur Proxmox. Vous devez mener l'installation en parallèle sur les deux plateformes. 
+Cet environnement sera déployé sur une plateforme sur "Virtual Box" et sur "Proxmox". Vous devez mener l'installation en parallèle sur les deux plateformes. 
 
 La répartition du travail eu sein de l'équipe est libre, mais doit être planifiée et quantifiée au travers d'un suivi type Jira/gitub en mode Kanban.
 Votre responsable doit pouvoir suivre l'avancement de votre projet et faire un bilan personnel des tâches réalisées sous forme de graphique par chaque membre de l'équipe à la fin du projet.
 
-Vous serez aidé par trois conseillers qui vous guideront lors de la mise en  œuvre de votre projet quand ils seront présents. Ces experts étant facturés à l'heure, vous devrez soigneusement réfléchir à la manière de les consulter (préparez vos questions, soyez précis dans vos demandes, etc...).
+Vous serez aidé par trois ingénieurs seniors qui vous guideront lors de la mise en  œuvre de votre projet quand ils seront présents. Ces experts étant facturés à l'heure, vous devrez soigneusement réfléchir à la manière de les consulter (préparez vos questions, soyez précis dans vos demandes, etc...).
 Il est impératif de faire valider votre travail par les experts qui donneront une appréciation de votre niveau de compétence sur les aspects techniques et méthodologiques.
 
 ## Technologie
@@ -35,16 +39,20 @@ Il est impératif de faire valider votre travail par les experts qui donneront u
 
 ## Livrables attendus
 
-- Le plan de test d'intrusion.
-- Bilan des tâches réalisées par chaque membre de l'équipe et temps passé.
-- Schéma réseaux.
-- Tableau de test d'intrusions et analyse des résultats correspondants sur les SIEM. Le critère de furtivité sera apprécié dans vos résultats.
-- Liste des matériels utilisés par votre team ce qui permettra de retrouver sur quel matériel vous avez travaillé. L'ensemble des serveurs ne sera pas disponible les six derniers serveurs sont réservés pour une autre expérimentation (ressource Cloud sur deux journées).
-- 
-En annexe:
+- Un compte rendu qui contiendra une synthèse du travail accompli. Une synthèse ce n'est pas un rapport. Elle doit être la plus efficace possible en peu de pages. Elle permettra à votre client de se faire une idée précise de votre travail et d'orienter ces choix défensifs.
+ 
+Elle ontiendra **sous forme synthétique** :
+  * Un descriptif synthétique de ce que vous avez en oeuvre. (schéma, technos...)
+  * Les résultats obtenus.
+  * Un bilan chiffré et graphique de votre gestion du projet par personne et par tâche.
+  * Un avis éclairé sur l'efficacité de votre détection avec un comparatif d'efficacité des différentes méthodes de détection.
+  * Vos acquisitions personnelles et de groupes en termes de compétence avec un retour sur vos "Win/fail" pour préparer votre portfolio.
 
-- Dépôts Git pour la partie automatisation et déploiement des agents.
-- Bilan des questions posées aux experts et réponses apportées.
-- Traces des installations et des configurations réalisées.
+- A la suite de ce compte rendu pour délivrerez des annexes détaillant l'installation de votre environnement. 
+  
 
-Au final l'ensemble des matériels devra être ré-initialisé avant la fin de la SAE. Un manquement à cette règle entraînera une pénalité sur l'appréciation de vos compétences.
+* Dépôts Git pour la partie automatisation et déploiement des agents.
+* Bilan des questions posées aux experts et réponses apportées.
+* Traces des installations et des configurations réalisées. Chaque annexe précisera son auteur et la durée de réalisation.
+
+l'ensemble des matériels devra être ré-initialisé avant la fin de la SAE. Un manquement à cette règle entraînera une pénalité sur l'appréciation de vos compétences.
