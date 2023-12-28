@@ -7,7 +7,8 @@ Vous devez créer un "Proof of Concept" pour les futures équipes "blue team et 
 Votre équipe sera constituée de deux membres spécialistes du Cloud et de l'infrastructure ainsi que deux membres spécialiste Cyberbersécurité de votre ESN.
 
 A cet effet vous devrez mettre en œuvre un environnement réaliste  permettant de simuler un environnement de production Windows.
-Dans un second temps les équipes offensives iront mettre en oeuvre 
+
+La gestion de projet sera faite en mode agile. Les efforts seront quantifiés (nombre de taches par personne, nombre de jours par personne...).
 
 Cet environnement sera basé sur le projet GOAD d'Orange Cyberdéfense qui permet de déployer un Active Directory vulnérable. 
 voir https://github.com/Orange-Cyberdefense/GOAD
@@ -31,6 +32,8 @@ Votre responsable doit pouvoir suivre l'avancement de votre projet et faire un b
 Vous serez aidé par trois ingénieurs seniors qui vous guideront lors de la mise en  œuvre de votre projet quand ils seront présents. Ces experts étant facturés à l'heure, vous devrez soigneusement réfléchir à la manière de les consulter (préparez vos questions, soyez précis dans vos demandes, etc...).
 Il est impératif de faire valider votre travail par les experts qui donneront une appréciation de votre niveau de compétence sur les aspects techniques et méthodologiques.
 
+Après un run des attaques interne à chaque groupe, les équipes offensives échangeront leur place pour une journée afin de tester leurs attaques  sur une autre blue team qui fera un raport sur la detection tandis que les équipes redteam feront un rapport sur le résultat des attaques.
+  
 ## Technologie
 - Votre infrastructure contiendra un serveur de logs (OpenWEC)
   (voir https://www.sstic.org/2023/presentation/openwec/) réceptacle des logs de vos serveurs windows.
@@ -48,8 +51,7 @@ Elle ontiendra **sous forme synthétique** :
   * Un avis éclairé sur l'efficacité de votre détection avec un comparatif d'efficacité des différentes méthodes de détection.
   * Vos acquisitions personnelles et de groupes en termes de compétence avec un retour sur vos "Win/fail" pour préparer votre portfolio.
 
-- A la suite de ce compte rendu pour délivrerez des annexes détaillant l'installation de votre environnement. 
-  
+- A la suite de ce compte rendu pour délivrerez des annexes détaillant l'installation de votre environnement.
 
 * Dépôts Git pour la partie automatisation et déploiement des agents.
 * Bilan des questions posées aux experts et réponses apportées.
