@@ -24,13 +24,12 @@ Un IDS Suricata sera déployé aussi à l'endroit le mieux adapté.
 A chaque test, vous associerez les alertes générées par le SIEM et vous analyserez les résultats. Vous utiliserez au moins deux SIEM et des outils portables comme Chainsaw et Hayabusa. Le déploiement des agents devra être automatisé.
 Votre environnement sera protégé par un pare-feu virtuel ou physique Stormshield.
 
-Cet environnement sera déployé sur une plateforme sur "Virtual Box" et sur "Proxmox". Vous devez mener l'installation en parallèle sur les deux plateformes. 
+Cet environnement sera déployé sur une plateforme sur "Virtual Box" ou sur "Proxmox". 
 
 La répartition du travail eu sein de l'équipe est libre, mais doit être planifiée et quantifiée au travers d'un suivi type Jira/gitub en mode Kanban.
 Votre responsable doit pouvoir suivre l'avancement de votre projet et faire un bilan personnel des tâches réalisées sous forme de graphique par chaque membre de l'équipe à la fin du projet.
 
-Vous serez aidé par trois ingénieurs seniors qui vous guideront lors de la mise en  œuvre de votre projet quand ils seront présents. Ces experts étant facturés à l'heure, vous devrez soigneusement réfléchir à la manière de les consulter (préparez vos questions, soyez précis dans vos demandes, etc...).
-Il est impératif de faire valider votre travail par les experts qui donneront une appréciation de votre niveau de compétence sur les aspects techniques et méthodologiques.
+Vous serez aidé par un ingénieur senior qui vous guidera lors de la mise en  œuvre de votre projet quand il sera présent. Cet expert étant facturé à l'heure, vous devrez soigneusement réfléchir à la manière de les consulter (préparez vos questions, soyez précis dans vos demandes, etc...).
 
 Après un run des attaques interne à chaque groupe, les équipes offensives échangeront leur place pour une journée afin de tester leurs attaques  sur une autre blue team qui fera un raport sur la detection tandis que les équipes redteam feront un rapport sur le résultat des attaques.
   
@@ -54,7 +53,7 @@ Elle ontiendra **sous forme synthétique** :
 - A la suite de ce compte rendu pour délivrerez des annexes détaillant l'installation de votre environnement.
 
 * Dépôts Git pour la partie automatisation et déploiement des agents.
-* Bilan des questions posées aux experts et réponses apportées.
+* Bilan des questions posées et réponses apportées.
 * Traces des installations et des configurations réalisées. Chaque annexe précisera son auteur et la durée de réalisation.
 
 l'ensemble des matériels devra être ré-initialisé avant la fin de la SAE. Un manquement à cette règle entraînera une pénalité sur l'appréciation de vos compétences.
