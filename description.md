@@ -4,7 +4,7 @@
 
 ### objectifs
 Vous devez créer un "Proof of Concept" pour les futures équipes "blue team et red team" d'une entreprise.
-Votre équipe sera constituée de deux membres spécialistes du Cloud et de l'infrastructure ainsi que deux membres spécialiste Cyberbersécurité de votre ESN.
+Votre équipe sera constituée de deux membres spécialistes de deux membres spécialiste Cyberbersécurité de votre ESN.
 
 A cet effet vous devrez mettre en œuvre un environnement réaliste  permettant de simuler un environnement de production Windows.
 
@@ -22,9 +22,9 @@ Vous utiliserez des "sigma rules" pour détecter vos attaques sur les logs EVTX.
 Un IDS Suricata sera déployé aussi à l'endroit le mieux adapté.
 
 A chaque test, vous associerez les alertes générées par le SIEM et vous analyserez les résultats. Vous utiliserez au moins deux SIEM et des outils portables comme Chainsaw et Hayabusa. Le déploiement des agents devra être automatisé.
-Votre environnement sera protégé par un pare-feu virtuel ou physique Stormshield.
 
-Cet environnement sera déployé sur une plateforme sur "Virtual Box" ou sur "Proxmox". 
+
+Cet environnement sera déployé sur une plateforme sur "Virtual Box". 
 
 La répartition du travail eu sein de l'équipe est libre, mais doit être planifiée et quantifiée au travers d'un suivi type Jira/gitub en mode Kanban.
 Votre responsable doit pouvoir suivre l'avancement de votre projet et faire un bilan personnel des tâches réalisées sous forme de graphique par chaque membre de l'équipe à la fin du projet.
