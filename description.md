@@ -26,8 +26,6 @@ A chaque test, vous associerez les alertes générées par le SIEM et vous analy
 
 Cet environnement sera déployé sur une plateforme sur "Virtual Box". 
 
-La répartition du travail eu sein de l'équipe est libre, mais doit être planifiée et quantifiée au travers d'un suivi type Jira/gitub en mode Kanban.
-Votre responsable doit pouvoir suivre l'avancement de votre projet et faire un bilan personnel des tâches réalisées sous forme de graphique par chaque membre de l'équipe à la fin du projet.
 
 Vous serez aidé par un ingénieur senior qui vous guidera lors de la mise en  œuvre de votre projet quand il sera présent. Cet expert étant facturé à l'heure, vous devrez soigneusement réfléchir à la manière de les consulter (préparez vos questions, soyez précis dans vos demandes, etc...).
 
